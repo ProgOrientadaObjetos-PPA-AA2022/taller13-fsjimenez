@@ -7,14 +7,15 @@ package p3;
 
 /**
  *
- * @author reroes
+ * @author Usuario iTC
  */
-public class DominioGmail implements Dominio{
+public class DominioUTPL implements Dominio{
+
     private String dominio;
 
     @Override
     public void establecerDominio() {
-        dominio = "gmail.com";
+        dominio = "utpl.edu.ec";
     }
 
     @Override
